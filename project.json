@@ -1,0 +1,67 @@
+[
+  {
+    "module": "Task Management",
+    "submodules": [
+      {
+        "title": "Task Creation",
+        "description": "Allows users to add new tasks with a title and optional description. Users can set due dates and priorities to help organize their tasks effectively.",
+        "selected": true
+      },
+      {
+        "title": "Task Completion",
+        "description": "Enables users to mark tasks as done using a checkbox. Completed tasks are visually distinguished to enhance user experience and provide a clear overview of progress.",
+        "selected": true
+      },
+      {
+        "title": "Task Deletion",
+        "description": "Provides functionality for users to delete tasks they no longer need. This includes confirmation prompts to prevent accidental deletions.",
+        "selected": true
+      },
+      {
+        "title": "Task Filtering",
+        "description": "Allows users to filter tasks based on their status: all, active, or completed. This feature helps users focus on specific tasks and manage their workload efficiently.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "User Interface",
+    "submodules": [
+      {
+        "title": "Clean UI Design",
+        "description": "Focuses on a minimalistic design that enhances usability. The interface is intuitive, ensuring that users can navigate and manage their tasks without confusion.",
+        "selected": true
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Ensures that the application is fully responsive, providing an optimal viewing experience across various devices, including desktops, tablets, and smartphones.",
+        "selected": true
+      },
+      {
+        "title": "Light/Dark Theme Toggle",
+        "description": "Offers users the option to switch between light and dark themes, catering to personal preferences and improving accessibility in different lighting conditions.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "Data Management",
+    "submodules": [
+      {
+        "title": "LocalStorage Integration",
+        "description": "Utilizes localStorage to save tasks persistently, allowing users to access their tasks even after refreshing the page or closing the browser. This ensures that user data is retained across sessions.",
+        "selected": true
+      },
+      {
+        "title": "Data Retrieval",
+        "description": "Handles the retrieval of tasks from localStorage upon application load, ensuring that users see their existing tasks immediately without any delay.",
+        "selected": true
+      },
+      {
+        "title": "Data Synchronization",
+        "description": "Ensures that any changes made to tasks (additions, completions, deletions) are immediately reflected in localStorage, maintaining data integrity and consistency.",
+        "selected": true
+      }
+    ]
+  }
+]
